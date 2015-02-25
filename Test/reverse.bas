@@ -1,0 +1,14 @@
+10 N = 0
+20 INPUT X
+30 IF X = -1 THEN 60
+35 N = N + 1
+40 PUSH X
+45 GOTO 20
+50 GOTO 70
+60 PRINTLN "The reverse sequence is:"
+70 FOR I = 1 TO N
+80   POP X
+90   PRINT X
+95   PRINT " "
+100 NEXT I
+110 END

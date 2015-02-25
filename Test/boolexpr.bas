@@ -1,0 +1,5 @@
+10 IF 2 > 1 AND {NOT{ 1 > 2 OR 2 > 3}} THEN 40
+20 PRINT "false"
+30 END
+40 PRINT "true"
+50 END

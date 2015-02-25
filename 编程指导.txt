@@ -1,0 +1,53 @@
+0.变量、数字、字符串
+ 最长长度为64
+ 最大行长度为256
+ 最大行个数为4096
+ 最大变量个数64
+
+1.算数表达式exp
+ 由+,-,*,/,(,)组成
+
+2.逻辑表达式boolexp
+ 由TRUE,FALSE,AND,OR,NOT,{,}及比较子项组成
+ 比较子项：格式 exp1 < | > | <= | >= | = | <> exp2
+
+3.FOR语句（有限循环）
+ FOR var = exp1 TO | DOWNTO exp2
+ NEXT var
+ TO时，exp1 <= exp2
+ DOWNTO时，exp2 <= exp1
+ 最大嵌套32层
+
+4.GOTO语句（无条件跳转）
+ GOTO exp
+
+5.GOSUB语句（子过程）
+ GOSUB exp
+ RETURN
+ 最大层次32层
+
+6.LET语句（赋值）
+ LET var = exp
+ LET可以省略
+
+7.IF语句（条件分支）
+ IF boolexp THEN exp
+
+8.INPUT语句（从键盘输入）
+ INPUT var
+
+9.PRINT, PRINTLN语句 (打印，LN表示换行）
+ PRINT | PRINTLN exp | string
+
+10.REM语句（注释）
+ REM ...
+
+11.END语句（退出程序）
+ END
+
+12.PUSH语句（入栈）
+ PUSH exp
+栈长度32
+
+13.POP语句（出栈）
+ POP var
